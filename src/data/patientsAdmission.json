@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Alice Brown",
+    "date": "2025-08-12",
+    "ageGender": "45/F",
+    "waitTime": "25 min",
+    "room": "Room 103"
+  },
+  {
+    "name": "David Clark",
+    "date": "2025-08-11",
+    "ageGender": "60/M",
+    "waitTime": "20 min",
+    "room": "Room 205"
+  },
+  {
+    "name": "Jessica Lee",
+    "date": "2025-08-10",
+    "ageGender": "37/F",
+    "waitTime": "30 min",
+    "room": "Room 208"
+  },
+  {
+    "name": "Mark Wilson",
+    "date": "2025-08-09",
+    "ageGender": "50/M",
+    "waitTime": "18 min",
+    "room": "Room 102"
+  },
+  {
+    "name": "Emma Davis",
+    "date": "2025-08-08",
+    "ageGender": "29/F",
+    "waitTime": "10 min",
+    "room": "Room 301"
+  },
+  {
+    "name": "Daniel Smith",
+    "date": "2025-08-07",
+    "ageGender": "34/M",
+    "waitTime": "22 min",
+    "room": "Room 104"
+  },
+  {
+    "name": "Sophia Johnson",
+    "date": "2025-08-06",
+    "ageGender": "41/F",
+    "waitTime": "16 min",
+    "room": "Room 207"
+  },
+  {
+    "name": "Michael Brown",
+    "date": "2025-08-05",
+    "ageGender": "53/M",
+    "waitTime": "19 min",
+    "room": "Room 306"
+  },
+  {
+    "name": "Olivia Martinez",
+    "date": "2025-08-04",
+    "ageGender": "38/F",
+    "waitTime": "27 min",
+    "room": "Room 109"
+  },
+  {
+    "name": "James Anderson",
+    "date": "2025-08-03",
+    "ageGender": "46/M",
+    "waitTime": "23 min",
+    "room": "Room 110"
+  }
+]

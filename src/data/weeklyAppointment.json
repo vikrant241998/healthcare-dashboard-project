@@ -1,0 +1,9 @@
+[
+  { "day": "Mon", "appointments": 10 },
+  { "day": "Tue", "appointments": 15 },
+  { "day": "Wed", "appointments": 8 },
+  { "day": "Thu", "appointments": 18 },
+  { "day": "Fri", "appointments": 12 },
+  { "day": "Sat", "appointments": 20 },
+  { "day": "Sun", "appointments": 9 }
+]

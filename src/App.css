@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+
+
+/* scroll.css */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.outlet-main-container {
+  overflow: auto !important;
+}
+.outlet-main-container::-webkit-scrollbar {
+  display: none;
+}
+/* Layout  */
+@media screen and (max-width: 1023px) {
+  .outlet-main-container {
+    margin-left: 50px !important;
+  }
+}

@@ -1,0 +1,7 @@
+[
+  { "label": "Cardiology", "value": 35 },
+  { "label": "Neurology", "value": 25 },
+  { "label": "Orthopedics", "value": 20 },
+  { "label": "Pediatrics", "value": 15 },
+  { "label": "Others", "value": 5 }
+]
