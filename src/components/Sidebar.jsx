@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
       {isOpen && window.innerWidth <= 1024 && (
         <div
-          className="fixed top-16 left-0 right-0 bottom-0 bg-[#00000024] bg-opacity-50 z-40 lg:hidden"
+          className="fixed top-16 left-0 right-0 bottom-0 bg-[#00000091] bg-opacity-50 z-40 lg:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
