@@ -1,12 +1,113 @@
-# React + Vite
+# 🏥 Healthcare Dashboard – Frontend Development Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **responsive and interactive healthcare dashboard** built using **React** and **Tailwind CSS**. 
+It is designed for doctors or hospital administrators to visualize key healthcare metrics, manage appointments, and track patient admissions. All data used is dummy/static JSON — no backend integration required.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ React JS
+- 💨 Tailwind CSS
+- 📊 Recharts (Charts and Graphs)
+- 📁 Dummy JSON Data
+- 🌙 Dark/Light Mode Support
+- 🔔 React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### 🌞 Light Mode
+
+#### 🖥️ Desktop
+![Light Mode - Desktop](./src/screenshots/Desktop%20View%20Light%20Mode%20Theme.png)
+
+#### 💻 Tablet
+![Light Mode - Tablet](./src/screenshots/Tablet%20View%20Light%20Mode%20Theme.png)
+
+#### 📱 Mobile
+![Light Mode - Mobile](./src/screenshots/Mobile%20View%20Light%20Mode%20Theme.png)
+
+---
+
+### 🌙 Dark Mode
+
+#### 🖥️ Desktop
+![Dark Mode - Desktop](./src/screenshots/Desktop%20View%20Dark%20Mode%20Theme.png)
+
+#### 💻 Laptop
+![Dark Mode - Laptop](./src/screenshots/Tablet%20View%20Dark%20Mode%20Theme.png)
+
+#### 📱 Mobile
+![Dark Mode - Mobile](./src/screenshots/Mobile%20View%20Dark%20Mode%20Theme.png)
+
+
+## 📁 Project Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vikrant241998/healthcare-dashboard-project.git
+
+## 🔗 Live Demo
+
+👉 **Check it live here**: [https://hospitalpanel.netlify.app/](https://hospitalpanel.netlify.app/)
+
+
+Install the dependencies
+npm install
+
+Start the development server
+npm run dev
+
+
+src/
+├── assets/                # Icons, images, logos
+├── components/            # Reusable UI components
+│   ├── AppointmentTable.jsx
+│   ├── Cards.jsx
+│   ├── Header.jsx
+│   ├── PageNotFound.jsx
+│   ├── Patients.jsx
+│   └── PieChartComponents.jsx
+│   └── Sidebar.jsx
+│   └── WeeklyAppointment.jsx
+│
+├── data/                  # Dummy JSON data
+│   ├── appointments.json
+│   ├── patientsAdmission.json
+│   └── pieChartData.json
+│   └── weeklyAppointments.json
+│
+├── pages/                 # Main dashboard page
+│   └── Dashboard.jsx
+│   └── Appointments.jsx
+│   └── Layout.jsx
+│   └── Patients.jsx
+│   └── Reports.jsx
+│   └── ReportsSettings.jsx
+│
+├── App.jsx
+└── index.js
+
+
+
+✅ Features Implemented
+📱 Fully responsive layout (Desktop, Laptop, Tablet, Mobile)
+
+🌗 Dark/Light mode toggle
+
+🔍 Search & filter in appointment list
+
+📊 Charts using Recharts
+
+✨ Hover effects
+
+📲 Sidebar toggle on small screens
+
+
+📌 Notes
+All data is static and stored in the /data folder in JSON format.
+
+🙌 Author
+Developed by Vikrant Mulankar  as part of a frontend development assignment.

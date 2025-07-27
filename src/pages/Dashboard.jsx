@@ -11,7 +11,7 @@ const Dashboard = () => {
       <div className="w-full  space-y-6">
         <Card />
 
-        <AppointmentTable />
+         <AppointmentTable />
 
         <div className="flex flex-col lg:flex-row gap-3 w-full">
           <div className="w-full  lg:w-[60%] flex flex-col gap-5 cursor-pointer">
@@ -27,8 +27,8 @@ const Dashboard = () => {
               <PatientList />
             </div>
           </div>
-        </div>
-      </div>
+        </div> 
+      </div> 
     </>
   );
 };

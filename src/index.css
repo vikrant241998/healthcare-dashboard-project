@@ -1,2 +1,27 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
+/* index.css */
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .outlet-main-container {
+    overflow: auto !important;
+  }
+
+  .outlet-main-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 1023px) {
+    .outlet-main-container {
+      margin-left: 50px !important;
+    }
+  }
+}

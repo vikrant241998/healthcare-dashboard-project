@@ -22,19 +22,18 @@ const menuItems = [
 const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
     <>
-      {/* 👉 Overlay for small screens */}
 
       {isOpen && window.innerWidth <= 1024 && (
         <div
-          className="fixed top-16 left-0 right-0 bottom-0 bg-[#00000017 ] bg-opacity-50 z-40 lg:hidden"
+          className="fixed top-16 left-0 right-0 bottom-0 bg-[#00000024] bg-opacity-50 z-40 lg:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
 
-      {/* 👉 Sidebar */}
+      {/* Sidebar */}
       <div
         className={`
-          bg-[#0f172a] text-white flex flex-col transition-all duration-300 ease-in-out
+          dark:bg-[#0f172a] bg-[#d6e9f9] dark:text-white text-[#1e2a38] flex flex-col transition-all duration-300 ease-in-out
           h-full z-50
           ${isOpen ? "w-[260px]" : "w-[50px]"}
           fixed top-0 left-0
@@ -49,11 +48,11 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           `}
         >
           {/* Header */}
-          <div className="flex items-center justify-between px-3 py-4 border-b border-[#34495e] bg-[#0f172a] cursor-pointer">
+          <div className="flex items-center justify-between px-3 py-4 border-b dark:border-[#34495e] border-[#4a6480] dark:bg-[#0f172a] bg-[#d6e9f9] cursor-pointer">
             {isOpen && (
-              <div className="flex flex-row items-center gap-2 w-full border-b border-[#34495e] !px-5 !py-4 !ml-2">
+              <div className="flex flex-row items-center gap-2 w-full  !px-5 !py-4 !ml-2">
                 <MdLocalHospital className="text-[25px]" />
-                <span className="text-[20px] font-semibold tracking-[1px] whitespace-nowrap">
+                <span className="text-[20px] font-bold tracking-[1px] whitespace-nowrap">
                   Hospital Panel
                 </span>
               </div>
@@ -96,8 +95,8 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                       `group flex items-center gap-[15px] justify-start !mx-auto w-[210px] rounded-[5px] text-[16px] tracking-[1px] transition-colors duration-300 !mb-2 !px-1.5 !py-2
                       ${
                         isActive
-                          ? "bg-[#536f8a] text-white"
-                          : "text-[#e0ffff] hover:bg-[#536f8a] hover:text-white"
+                          ? "dark:bg-[#536f8a] bg-[#4a6480] dark:text-white text-white"
+                          : " dark:hover:bg-[#536f8a] hover:bg-[#536f8a] hover:text-white text-[1e2a38]"
                       }`
                     }
                   >

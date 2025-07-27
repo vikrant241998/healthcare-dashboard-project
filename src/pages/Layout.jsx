@@ -25,14 +25,13 @@ const Layout = () => {
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
 
       {/* Main Content */}
-      <div className="flex flex-col flex-1 overflow-hidden">
-        {/* Header */}
+      <div className="flex flex-col flex-1 overflow-hidden  ">
         <div>
           <Header />
         </div>
 
         {/* Content */}
-        <div className="outlet-main-container bg-[#ffffff] !p-2 sm:!p-4">
+        <div className="outlet-main-container  dark:bg-[#ffffff] bg-[#f0f8ff] !p-2 sm:!p-4">
           <Outlet />
         </div>
       </div>
